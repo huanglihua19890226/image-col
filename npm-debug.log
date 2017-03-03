@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'push' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose run-script [ 'prepush', 'push', 'postpush' ]
+5 info lifecycle image-col@1.0.0~prepush: image-col@1.0.0
+6 silly lifecycle image-col@1.0.0~prepush: no script for prepush, continuing
+7 info lifecycle image-col@1.0.0~push: image-col@1.0.0
+8 verbose lifecycle image-col@1.0.0~push: unsafe-perm in lifecycle true
+9 verbose lifecycle image-col@1.0.0~push: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/milo/dev/PersonalProject/image-col/node_modules/.bin:/Users/milo/EVN_KKKK/apache-ant-1.9.7/bin:/usr/local/Cellar/android-sdk/24.4.1_1/tools:/usr/local/Cellar/android-sdk/24.4.1_1/platform-tools:/usr/local/Cellar/android-sdk/24.4.1_1:/Users/milo/EVN_KKKK/android-ndk-r13b:/Users/milo/EVN_KKKK/cocos2d-x-3.13.1/templates:/Users/milo/EVN_KKKK:/Users/milo/EVN_KKKK/cocos2d-x-3.13.1/tools/cocos2d-console/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/android-sdk:/usr/local/opt/android-sdk/build-tools/23.0.1:/Users/milo/mongodb/bin/
+10 verbose lifecycle image-col@1.0.0~push: CWD: /Users/milo/dev/PersonalProject/image-col
+11 silly lifecycle image-col@1.0.0~push: Args: [ '-c',
+11 silly lifecycle   'git add * && git commit -m \'...\' && git push origin' ]
+12 silly lifecycle image-col@1.0.0~push: Returned: code: 1  signal: null
+13 info lifecycle image-col@1.0.0~push: Failed to exec push script
+14 verbose stack Error: image-col@1.0.0 push: `git add * && git commit -m '...' && git push origin`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid image-col@1.0.0
+16 verbose cwd /Users/milo/dev/PersonalProject/image-col
+17 error Darwin 16.4.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "push"
+19 error node v6.9.5
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error image-col@1.0.0 push: `git add * && git commit -m '...' && git push origin`
+22 error Exit status 1
+23 error Failed at the image-col@1.0.0 push script 'git add * && git commit -m '...' && git push origin'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the image-col package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     git add * && git commit -m '...' && git push origin
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs image-col
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls image-col
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
